@@ -1,8 +1,9 @@
 package hwr.oop;
 
-public class Card {
+public class  Card {
     public final Color color;
     public final Type number;
+    public final IsTrump isTrump;
 
     public Card(Color color, Type number) {
         this.color = color;
